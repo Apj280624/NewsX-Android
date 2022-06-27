@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    //modifying icon of normal menu three dots
+
+    //this item will also have subitems
+    <item
+        android:id="@+id/countryItem"
+        android:title="Country"
+        android:tooltipText="ask"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/countryIndia"
+                android:title="India (in)" />
+
+            <item
+                android:id="@+id/countryUnitedStatesofAmerica"
+                android:title="United States of America (us)" />
+
+            <item
+                android:id="@+id/countryUnitedArabEmirates"
+                android:title="United Arab Emirates (ae)" />
+
+            <item
+                android:id="@+id/countryArgentina"
+                android:title="Argentina (ar)" />
+
+            <item
+                android:id="@+id/countryAustria"
+                android:title="Austria (at)" />
+
+            <item
+                android:id="@+id/countryAustralia"
+                android:title="Australia (au)" />
+
+            <item
+                android:id="@+id/countryBelgium"
+                android:title="Belgium (be)" />
+
+            <item
+                android:id="@+id/countryBulgaria"
+                android:title="Bulgaria (bg)" />
+
+        </menu>
+
+    </item>
+
+</menu>
